@@ -54,11 +54,15 @@ function MyPets() {
     let msgType = "success";
 
     const data = await api
-      .patch(`/pets/conclude/${id}`, {
-        headers: {
-          Authorization: `Bearer ${JSON.parse(token)}`,
-        },
-      })
+      .patch(
+        `/pets/conclude/${id}`,
+        {},
+        {
+          headers: {
+            Authorization: `Bearer ${JSON.parse(token)}`,
+          },
+        }
+      )
       .then((response) => {
         return response.data;
       })
