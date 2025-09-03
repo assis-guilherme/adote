@@ -16,8 +16,8 @@ function Navbar() {
       <div className="container flex h-16 items-center justify-between px-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          <img src={Logo} alt="Get A Pet" className="h-8 w-8" />
-          <h2 className="text-xl font-bold text-primary">Get A Pet</h2>
+          <img src={Logo} alt="AdotaPet" className="h-8 w-8" />
+          <h2 className="text-xl font-bold text-primary">AdotaPet</h2>
         </div>
 
         {/* Navigation Links */}
